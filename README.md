@@ -1,2 +1,0 @@
-# oatsandbeans.com
-Cooking blog
