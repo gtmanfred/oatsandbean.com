@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+import bulrush
 
 AUTHOR = 'Katie Wallace'
 SITENAME = 'Oats and Beans'
@@ -10,6 +11,11 @@ PATH = 'content'
 TIMEZONE = 'US/Central'
 
 DEFAULT_LANG = 'en'
+THEME = bulrush.PATH
+JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
+JINJA_FILTERS = bulrush.FILTERS
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['assets']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
